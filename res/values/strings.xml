@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Reagency</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="s_title">"点点点"</string>
+    <string name="s_time_info">"倒计时"</string>
+    <string name="s_count_info">"点击: "</string>
+    <string name="s_btn_info">"点我\n点 ------- 我\n点我"</string>
+    <string name="s_end">"游戏结束"</string>
+
+</resources>

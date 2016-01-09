@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+    
+    <TextView
+        android:id="@+id/m_title"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="@string/s_title"
+        android:textColor="#FFFFFF" />
+    
+     <TextView
+        android:id="@+id/m_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/s_time_info"
+        android:textSize="10pt"
+        android:textColor="#FFFFFF" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF" >
+        <TextView
+        android:id="@+id/m_count_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/s_count_info"
+        android:textSize="10pt"
+        android:textColor="#FFFFFF" />
+    <TextView
+        android:id="@+id/m_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/hello_world"
+        android:textSize="10pt"
+        android:textColor="#FFFFFF" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <Button
+            android:id="@+id/m_btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/s_btn_info"
+            android:textSize="30px" />
+    </LinearLayout>
+
+    
+
+</LinearLayout>
